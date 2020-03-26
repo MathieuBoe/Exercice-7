@@ -1,0 +1,19 @@
+#identite {background-color: #2574A9;display: block;width: 50%;border: solid 1px black; margin-bottom: 1em;}
+#adresselivraison{background-color: #9A12B3;display: block;width: 50%;border: solid 1px black;margin-bottom: 1em;}
+#reglement{background-color: #DB0A5B;display: block;width: 50%;border: solid 1px black;}
+main {display: block;width: 60%;}
+input{position: relative;}
+input#nom{left: 102px;}
+input#prenom{left: 84px;}
+input#mail{left: 50px;}
+input#adresse{left: 80px;}
+input#cp{left: 56px;}
+input#ville{left: 100px;}
+input#numerocb{left: 20px;}
+input#codesecurite{left: 20px;}
+input#nomtitulaire{left: 21px;}
+
+
+/* Cacher la boite carre */
+
+/* Creation boite ronde */

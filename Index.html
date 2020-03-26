@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Stylesheet">
+    <title>Exercice 7</title>
+</head>
+<body>
+<main>
+    <bloc id="identite">
+    <form action="identite" title="Votre Identite"> 
+        <h2>Votre identité</h2>
+        <ol>
+            <li>
+                <label for="nom">Nom :</label> 
+                <input type="text" id="nom" name="lname" value="Nom">
+            </li>
+            <li>
+                <label for="prenom">Prénom :</label>    
+                <input type="text" id="prenom" name="fname" value="Prenom">
+            </li>
+            <li>
+                <label for="mail">Adresse mail :</label>
+                <input type="email" name="user_mail" id="mail" value="Adresse mail">                
+            </li>
+        </ol>
+
+    </form>
+    </bloc>
+    <bloc id="adresselivraison">
+    <form action="adresselivraison" title="Adresse">  
+        <h2>Adresse de livraison</h2>
+        <ol>
+            <li>
+                <label for="adresse">Adresse :</label> 
+                <input type="text" name="user_adress" id="adresse">
+            </li>
+            <li>
+                <label for="cp">Code postal :</label>    
+                <input type="number" name="postal" id="cp" value="Code postal">
+            </li>
+            <li>
+                <label for="ville">Ville :</label>
+                <input type="text" name="ville" id="ville" value="Ville">    
+            </li>
+        </ol>    
+    </form>
+    </bloc>
+    <bloc id="reglement">    
+    <form action="reglement"> 
+        <h2>Informations de règlement</h2>
+        <ol>
+            <li>
+                <label for="typecb">Type de carte bancaire :</label>           
+            </li>
+                               
+                    <input class="checkbox" type="checkbox" name="visa" id="visa">
+                    <label for="visa">VISA</label> <br>                       
+                    <input class="checkbox" type="checkbox" name="mastercard" id="mastercard"> 
+                    <label for="mastercard">Mastercard</label>  
+                
+            <li>
+                <label for="numerocb">Numéro de carte :</label>  
+                <input type="number" name="numerocb" id="numerocb" value="Numero de carte">  
+            </li>
+            <li>
+                <label for="codesecurite">Code de sécurité :</label>
+                <input type="text" name="codesecurite" id="codesecurite" pattern="\d{4}" maxlength="3" value="Code de securite">
+             </li>
+            <li>
+                <label for="nomtitulaire">Nom du titulaire :</label>
+                <input type="text" name="nomtitulaire" id="nomtitulaire" value="Nom du titulaire">   
+            </li>
+        </ol>    
+    </form>
+    </bloc>
+    <label for="buy"></label>
+    <input type="submit" name="acheter" id="buy" value="J'achète !">
+</main>
+</body>
+</html>
